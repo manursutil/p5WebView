@@ -15,12 +15,20 @@
       {
         "command": "p5webview.popout",
         "title": "p5: Open Sketch in Separate Window"
+      },
+      {
+        "command": "p5webview.split",
+        "title": "p5: Open Sketch in Split"
       }
     ],
     "menus": {
       "editor/title/run": [
         {
           "command": "p5webview.popout",
+          "when": "resourceExtname == .js"
+        },
+        {
+          "command": "p5webview.split",
           "when": "resourceExtname == .js"
         }
       ]
