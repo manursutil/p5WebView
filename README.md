@@ -1,4 +1,4 @@
-# p5 WebView Popout
+# p5.js WebView Popout
 
 Opens the current p5.js sketch in a VS Code webview — either in a separate floating window or a split view.
 
