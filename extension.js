@@ -9,7 +9,7 @@ function openSketch(viewColumn, popout) {
 
   const panel = vscode.window.createWebviewPanel(
     'p5sketch',
-    `p5: ${editor.document.fileName.split('/').pop()}`,
+    `p5.js: ${editor.document.fileName.split('/').pop()}`,
     viewColumn,
     { enableScripts: true, retainContextWhenHidden: true }
   );
