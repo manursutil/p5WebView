@@ -1,9 +1,13 @@
 {
-  "name": "p5webview",
-  "displayName": "p5 WebView Popout",
+  "name": "p5jswebview",
+  "displayName": "p5.js WebView Popout",
   "description": "Opens the current p5.js sketch in a separate floating window",
   "version": "0.0.1",
   "publisher": "manursutil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manursutil/p5WebView"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
@@ -14,11 +18,11 @@
     "commands": [
       {
         "command": "p5webview.popout",
-        "title": "p5: Open Sketch in Separate Window"
+        "title": "p5.js: Open Sketch in Separate Window"
       },
       {
         "command": "p5webview.split",
-        "title": "p5: Open Sketch in Split"
+        "title": "p5.js: Open Sketch in Split"
       }
     ],
     "menus": {
