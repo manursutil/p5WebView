@@ -1,0 +1,29 @@
+{
+  "name": "p5webview",
+  "displayName": "p5 WebView Popout",
+  "description": "Opens the current p5.js sketch in a separate floating window",
+  "version": "0.0.1",
+  "publisher": "manursutil",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "p5webview.popout",
+        "title": "p5: Open Sketch in Separate Window"
+      }
+    ],
+    "menus": {
+      "editor/title/run": [
+        {
+          "command": "p5webview.popout",
+          "when": "resourceExtname == .js"
+        }
+      ]
+    }
+  }
+}
